@@ -18,11 +18,9 @@ func NewService() *Service {
 func (s *Service) GetLastNews() ([]News, error) {
 	var news []News
 
-	// Cria contexto do chromedp
 	ctx, cancel := chromedp.NewContext(context.Background())
 	defer cancel()
 
-	// Timeout de 15 segundos
 	ctx, cancel = context.WithTimeout(ctx, 15*time.Second)
 	defer cancel()
 

@@ -4,6 +4,7 @@ import (
 	"github.com/nicolaujoao1/jornal-bot/internal/bot"
 	"github.com/nicolaujoao1/jornal-bot/internal/jornal"
 	"github.com/nicolaujoao1/jornal-bot/internal/terminal"
+	// "github.com/nicolaujoao1/jornal-bot/internal/terminal"
 )
 
 func main() {
